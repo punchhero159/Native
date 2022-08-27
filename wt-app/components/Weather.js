@@ -45,9 +45,13 @@ const styles = StyleSheet.create({
         height: '100%'
     },
     zip: {
-        color: 'white',
+        color: 'black',
         fontSize: 20,
         textAlign: 'center', 
+        borderColor: 'white',
+        borderWidth: 5,
+        borderRadius: 5,
+        backgroundColor: 'white'
     }
 
 });
