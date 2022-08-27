@@ -45,18 +45,24 @@ const style = StyleSheet.create ({
         flexDirection: 'row',
         justifyContent: 'space-between',
         margin: 25,
+        backgroundColor: 'white',
+        opacity: 0.6,
+        borderColor: 'black',
+        borderWidth: 5,
+        borderRadius: 5
     },
     zipPlace: {
         flex: 1,
-        fontSize: 15,
-
+        fontSize: 30,
+        backgroundColor: 'white'
     },
     zipCode: {
         flex: 1,
-        fontSize: 15,
+        fontSize: 30,
         paddingLeft: 100
     },
     backgroundFlatlist: {
-        backgroundColor: '#ccffcc'
+        backgroundColor: '#ccffcc',
+
     }
 });
