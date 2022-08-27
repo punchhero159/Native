@@ -31,7 +31,7 @@ const ZipItem = ({place, code, navigation}) => (
 export default function ZipCodeScreen() {
     const navigation = useNavigation()
     return (
-        <FlatList
+        <FlatList style = {style.backgroundFlatlist}
             data = {availableZipItems}
             keyExtractor = {item => item.code}
             renderItem = {({item}) => <ZipItem {...item} navigation={navigation}/>}
@@ -55,5 +55,8 @@ const style = StyleSheet.create ({
         flex: 1,
         fontSize: 15,
         paddingLeft: 100
+    },
+    backgroundFlatlist: {
+        backgroundColor: '#ccffcc'
     }
 });
